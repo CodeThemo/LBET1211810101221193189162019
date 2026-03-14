@@ -377,6 +377,14 @@ body.overlay-active {
     background: #3088D4;
 }
 
+.social-icon-container ul li a.mail {
+    background: #555555;
+}
+
+.social-icon-container ul li a.gmail {
+    background: #EA4335;
+}
+
 /* For image fallback */
 .social-icon-container ul li a img {
     width: 60%;
