@@ -171,7 +171,7 @@ container.innerHTML=`
   <div class="swiper-wrapper">
     ${labelsArr
                 .map(
-                    ([label, d]) => `<div class="swiper-slide Layra-category-item"><div class="category-image" style="background-image:url('${d.image}')"></div><div class="category-overlay"><span class="category-post-count">${d.count}Items</span><span class="category-title">${label}</span><a class="category-explore" href="${site}/search/label/${encodeURIComponent(
+                    ([label, d]) => `<div class="swiper-slide Layra-category-item"><div class="category-image" style="background-image:url('${d.image}')"></div><div class="category-overlay"><span class="category-post-count">${d.count} Items</span><span class="category-title">${label}</span><a class="category-explore" href="${site}/search/label/${encodeURIComponent(
                         label
                     )}?max-results=8">Explore More<i class="bi bi-arrow-right"></i></a></div></div>`
                 )
